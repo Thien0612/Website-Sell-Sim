@@ -1,0 +1,14 @@
+Mở xampp và import file sql vào
+-- ĐỐI VỚI CODE --
+File giao diện sẽ có đuôi file là tpl.php, file giao diện tên gì thì file code xử lý giống tên: 
+Ví dụ: giao diện trang liên hệ là lienhe.tpl.php thì file xử lý sẽ là lienhe.php
+
+THƯ MỤC:
+admin: chứa các code xử lý của giao diện admin
+configs: chứa file connect csdl
+models: chứa code xử lý của giao diện trang chủ
+templates: có 2 thư mục con là admin và front, chứa các file css, js, và hình ảnh của các giao diện
+userfiles: chứa ảnh của user 
+views: admin là các trang giao diện admin (code xử lý nằm  thư mục admin), front là các trang giao diện của trang chủ (code xử lý nằm ở thư mục models)
+
+-- Ngoài file config.php chứa code connect ra thì  các trang khác vẫn có code connect --
